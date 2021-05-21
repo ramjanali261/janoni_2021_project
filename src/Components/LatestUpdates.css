@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 15em;
+  height: 19em;
+  margin: 1em auto;
+  overflow: hidden;
+  background: white;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #d8f5fa;
+}
+
+.bor {
+  border: 1px solid black transparent;
+  border-radius: 20px;
+  width: 19em;
+  height: 19em;
+  margin: 1em auto;
+  overflow: hidden;
+  background: white;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #d8f5fa;
+}
+
+.bor .container .marquee p {
+  margin: 0.3em;
+}
+
+.bor .container .marquee p a {
+  color: purple;
+  text-decoration: none;
+}
+
+.bor .container .marquee p a:visited {
+  color: black;
+}
+
+.bor .container .marquee p a:hover {
+  color: red;
+}
+
+.main-container {
+  width: 25em;
+  height: 3.5em;
+  margin: 0 1em 1em 0;
+  overflow: hidden;
+  background: #1261a0;
+  position: relative;
+  box-sizing: border-box;
+}
+.main-container h1 {
+  margin-left: 0.5em;
+  padding: 8px;
+  color: white;
+}
+.marquee {
+  top: 6em;
+  position: relative;
+  box-sizing: border-box;
+  animation: marquee 15s linear infinite;
+}
+
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Make it move! */
+@keyframes marquee {
+  0% {
+    top: 8em;
+  }
+  100% {
+    top: -11em;
+  }
+}
