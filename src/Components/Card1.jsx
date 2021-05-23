@@ -6,7 +6,7 @@ const Card1 = () => {
 
     function ncard(val) {
         return (
-            <div id="cont">
+            <div>
                 <Card2
                     title={val.title}
                     about={val.about}

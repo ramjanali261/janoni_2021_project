@@ -27,6 +27,16 @@ const LatestUpdates = () => {
                             <a href="www.wiki.com">Last date of application submission for PMSS scheme of WARB has now been
                             extended till 25/04/2021.</a>
                         </p>
+                        <p>
+                            <InfoIcon fontSize="small" />
+                            <a href="www.wiki.com">Last date of application submission for PMSS scheme of WARB has now been
+                            extended till 25/04/2021.</a>
+                        </p>
+                        <p>
+                            <InfoIcon fontSize="small" />
+                            <a href="www.wiki.com">Last date of application submission for PMSS scheme of WARB has now been
+                            extended till 25/04/2021.</a>
+                        </p>
 
                     </div>
                 </div>
